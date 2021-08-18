@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  margin:0;
+}
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.text-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 5rem;
+}
+h2{
+  font-size: 4rem;
+}
+p{
+  font-size: 2.5rem;
+
+}
 .container__grid {
   display: grid;
   border-radius: 5px;
@@ -19,7 +46,7 @@
   height: 335px;
 }
 .title{
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 10px;
   text-align: center;
 }
@@ -30,7 +57,7 @@ img {
   border: solid 1px rgba(0, 0, 0, 0.2);
 }
 .price{
-  font-size: 1.5rem;
+  font-size: 4rem;
   margin: 0 auto;
   margin-bottom: 20px;
 }
