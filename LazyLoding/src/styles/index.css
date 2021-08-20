@@ -1,0 +1,22 @@
+
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  margin: 0 auto;
+}
+h3{
+  font-size: 3rem;
+}
+p{
+  font-size:  1.8rem;
+}
+div, fieldset,footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
